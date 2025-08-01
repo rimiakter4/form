@@ -35,7 +35,10 @@ button{
 button:hover{
     background-color: rgb(222, 206, 226);
 }
-
+.font-size{
+    font-size: 20px;
+    color: rgb(39, 36, 36)
+}
 
     </style>
 </head>
@@ -44,18 +47,19 @@ button:hover{
         
               
                 <div class="form">
-                    <form class="input-container" action="">
-                         <label  for="">Your ID :</label><br>
-                       <input type="number" placeholder=" your id  " name="" required id="">
-                         <label  for="">Full_Name :</label><br>
+                    <form  action="">
+                         <label class="font-size" for="">Your ID :</label><br>
+                       <input type="number" placeholder=" your id  " maxlength="14" name="" required id="">
+                         <label class="font-size" for="">Full_Name :</label><br>
                         <input type="text" name="" id="" required placeholder="your full name">
-                        <label  for="">Email : </label>
+                        <label class="font-size"  for="">Email : </label>
                         <input  type="email" name="" id="" required placeholder="example@email.com">
-                        <label for="">Password : </label>
+                        <label class="font-size" for="">Password : </label>
                         <input type="password" placeholder="enter your password" minlength="6" name="" id=""><br>
                        
                        
-                        <button class="btn-3 required">Register</button>
+                        <button class="font-size">Register</button>
+                        
 
 
                     </form>
