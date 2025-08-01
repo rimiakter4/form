@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .form{
+            background-color: rgb(167, 140, 190);
+            max-width: 700px;
+            margin: 0 auto;
+            height: 3.rem;padding: 50px;
+            border: none;
+            border-radius: 20px;
+            margin-top: 100px
+        }
+
+input[type="text"],input[type="email"],input[type="password"],input[ type="number"]{
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    height: 40PX;
+    border: none;
+    margin-bottom: 15PX;
+}
+button{
+      display: block;
+    width: 100%;
+    border-radius: 4px;
+    height: 50PX;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(222, 206, 226);
+}
+
+
+    </style>
+</head>
+<body>
+    <main>
+        
+              
+                <div class="form">
+                    <form class="input-container" action="">
+                         <label  for="">Your ID :</label><br>
+                       <input type="number" placeholder=" your id  " name="" required id="">
+                         <label  for="">Full_Name :</label><br>
+                        <input type="text" name="" id="" required placeholder="your full name">
+                        <label  for="">Email : </label>
+                        <input  type="email" name="" id="" required placeholder="example@email.com">
+                        <label for="">Password : </label>
+                        <input type="password" placeholder="enter your password" minlength="6" name="" id=""><br>
+                       
+                       
+                        <button class="btn-3 required">Register</button>
+
+
+                    </form>
+
+                </div>
+
+    </main>
+    
+</body>
+</html>
